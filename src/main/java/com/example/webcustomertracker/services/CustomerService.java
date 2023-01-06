@@ -1,10 +1,10 @@
-package com.example.webcustomertracker.dao;
+package com.example.webcustomertracker.services;
 
 import com.example.webcustomertracker.pojo.Customer;
 
 import java.util.List;
 
-public interface CustomerDAO {
+public interface CustomerService {
     List<Customer> getCustomers(int sort);
 
     void saveCustomer(Customer customer);
